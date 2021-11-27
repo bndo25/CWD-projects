@@ -26,14 +26,31 @@
     color: white;
     }
     
-    .active-link{
-     color: rgb(253, 154, 5);
-     font-weight: bold;
-    }
-  
-    .main-header .showcase { 
-      padding-top: 30px;
-    }
+   .second-header .showcase { 
+    padding-top: 30px;
+    
+  }
+  .video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 25%;
+  }
+  .video-container2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 35%;
+  }
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
 
     .contact-header {
       background:url(../img/31799.jpg);
@@ -43,11 +60,6 @@
       color: white;
       }
       
-      .active-link{
-       color: rgb(253, 154, 5);
-       font-weight: bold;
-      }
-    
-      .main-header .showcase { 
+      .contact-header .showcase { 
         padding-top: 30px;
       }
